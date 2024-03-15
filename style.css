@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'noto-bold';
+    src: url('./static/NotoSansJP-ExtraBold.ttf');
+}
+
+html{
+    font-family: 'noto-medium';
+}
+
+.header-display{
+    display: flex;
+}
+.top-area-position{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kanban header {
+    background-color: #555;
+    color: #fff;
+
+  }
+
+hr{
+    width: 90%;
+    color: #f9f9f9;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+.memo-area{
+    margin-left: 15%;
+    margin-right: 6%;
+    margin-top: 3%;
+
+
+}
+
+.memo-area-title{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#canvas{
+    margin-left: 10%;
+}
+
+#kanban{
+    text-align: center;
+    width: 100%;
+
+}
+
+
